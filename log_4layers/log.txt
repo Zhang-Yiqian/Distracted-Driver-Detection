@@ -1,0 +1,32 @@
+Epoch 1/10
+629/630 [============================>.] - ETA: 0s - loss: 0.7725 - acc: 0.7363    Epoch 00000: val_acc improved from -inf to 0.90223, saving model to ./model/weights.best.hdf5
+630/630 [==============================] - 205s - loss: 0.7713 - acc: 0.7367 - val_loss: 0.2917 - val_acc: 0.9022
+Epoch 2/10
+629/630 [============================>.] - ETA: 0s - loss: 0.2137 - acc: 0.9338  Epoch 00001: val_acc improved from 0.90223 to 0.95625, saving model to ./model/weights.best.hdf5
+630/630 [==============================] - 160s - loss: 0.2136 - acc: 0.9338 - val_loss: 0.1472 - val_acc: 0.9563
+Epoch 3/10
+629/630 [============================>.] - ETA: 0s - loss: 0.1262 - acc: 0.9629  Epoch 00002: val_acc improved from 0.95625 to 0.96614, saving model to ./model/weights.best.hdf5
+630/630 [==============================] - 168s - loss: 0.1261 - acc: 0.9629 - val_loss: 0.1146 - val_acc: 0.9661
+Epoch 4/10
+629/630 [============================>.] - ETA: 0s - loss: 0.0932 - acc: 0.9722  Epoch 00003: val_acc improved from 0.96614 to 0.97201, saving model to ./model/weights.best.hdf5
+630/630 [==============================] - 167s - loss: 0.0933 - acc: 0.9722 - val_loss: 0.1025 - val_acc: 0.9720
+Epoch 5/10
+629/630 [============================>.] - ETA: 0s - loss: 0.0813 - acc: 0.9751  Epoch 00004: val_acc did not improve
+630/630 [==============================] - 168s - loss: 0.0813 - acc: 0.9750 - val_loss: 0.1050 - val_acc: 0.9666
+Epoch 6/10
+629/630 [============================>.] - ETA: 0s - loss: 0.0693 - acc: 0.9791  Epoch 00005: val_acc improved from 0.97201 to 0.97743, saving model to ./model/weights.best.hdf5
+630/630 [==============================] - 168s - loss: 0.0694 - acc: 0.9790 - val_loss: 0.0637 - val_acc: 0.9774
+Epoch 7/10
+629/630 [============================>.] - ETA: 0s - loss: 0.0578 - acc: 0.9828  Epoch 00006: val_acc improved from 0.97743 to 0.97833, saving model to ./model/weights.best.hdf5
+630/630 [==============================] - 169s - loss: 0.0578 - acc: 0.9828 - val_loss: 0.0759 - val_acc: 0.9783
+Epoch 8/10
+629/630 [============================>.] - ETA: 0s - loss: 0.0554 - acc: 0.9834  Epoch 00007: val_acc did not improve
+630/630 [==============================] - 168s - loss: 0.0553 - acc: 0.9834 - val_loss: 0.0749 - val_acc: 0.9770
+Epoch 9/10
+629/630 [============================>.] - ETA: 0s - loss: 0.0437 - acc: 0.9864  Epoch 00008: val_acc did not improve
+630/630 [==============================] - 167s - loss: 0.0437 - acc: 0.9865 - val_loss: 0.1030 - val_acc: 0.9725
+Epoch 10/10
+629/630 [============================>.] - ETA: 0s - loss: 0.0459 - acc: 0.9858  Epoch 00009: val_acc improved from 0.97833 to 0.98420, saving model to ./model/weights.best.hdf5
+630/630 [==============================] - 167s - loss: 0.0458 - acc: 0.9859 - val_loss: 0.0591 - val_acc: 0.9842
+Loss: 0.0605772311170638 Accuracy: 0.9851015801354401
+

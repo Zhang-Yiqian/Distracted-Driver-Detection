@@ -1,0 +1,42 @@
+GPU:
+first round: total duration= 77.69970726966858 each frame= 0.0345793089762655
+second: total duration= 19.114051580429077 each frame= 0.008506476003751259
+third: total duration= 18.873648166656494 each frame= 0.00839948739059034
+
+CPU:
+total duration= 98.21694874763489 each frame= 0.043710257564590516
+total duration= 97.04129791259766 each frame= 0.043187048470225926
+
+----------label 0 results
+top1=247.0
+top3=249.0
+----------label 1 results
+top1=227.0
+top3=227.0
+----------label 2 results
+top1=232.0
+top3=232.0
+----------label 3 results
+top1=235.0
+top3=235.0
+----------label 4 results
+top1=231.0
+top3=232.0
+----------label 5 results
+top1=231.0
+top3=232.0
+----------label 6 results
+top1=231.0
+top3=233.0
+----------label 7 results
+top1=201.0
+top3=201.0
+----------label 8 results
+top1=188.0
+top3=191.0
+----------label 9 results
+top1=208.0
+top3=212.0
+--------------------
+total top1=2231.0
+total top3=2244.0
