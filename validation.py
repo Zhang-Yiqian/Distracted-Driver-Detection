@@ -12,7 +12,7 @@ import time
 import os
 import tensorflow as tf 
 import keras.backend.tensorflow_backend as KTF 
-from keras_resnet.models._2d import ResNet2D18
+import keras_resnet
 # CPU testing
 #os.environ["CUDA_DEVICE_ORDER"] = "PCI_BUS_ID"
 #os.environ["CUDA_VISIBLE_DEVICES"] = ""
@@ -26,7 +26,8 @@ KTF.set_session(session)
 root_path = '../dataset/driver_dataset/val/'
 val_file = open('../dataset/driver_dataset/test_list.txt', 'r')
 val_list = val_file.readlines()
-model = models.load_model('model/weights.best.resnet18.hdf5', custom_objects={'ResNet2D18': ResNet2D18})
+#model = models.load_model('model/weights.best.resnet18.hdf5', custom_objects={'BatchNormalization': keras_resnet.layers.BatchNormalization, 'ResNet2D18':keras_resnet.models._2d.ResNet2D18})
+model = models.load_model('model/weights.best.4layers.hdf5')
 
 def topX_acc(preds, label):
     top_values = (-preds).argsort()[:3]
